@@ -1,0 +1,6 @@
+{
+  "publicComponents": {
+    "plazaList": "components/plazaList/plazaList"
+  },
+  "main": "index.js"
+}

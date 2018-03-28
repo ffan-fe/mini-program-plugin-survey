@@ -1,0 +1,10 @@
+<view class="product-header">
+  生活缴费
+</view>
+<view wx:for="{{list}}" wx:key="id" class="product-list">
+  <view class="product-item">
+    <text class="product-text">{{item.name}}</text>
+    <text class="product-price">{{item.price}}元</text>
+    <button size="mini" id="{{item.id}}" class="product-btn-buy" bindtap="buy">购买</button>
+  </view>
+</view>

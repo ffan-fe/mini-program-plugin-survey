@@ -1,0 +1,31 @@
+.product-header {
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.product-item {
+  display: flex;
+  padding: 0 20px;
+  color: #666666;
+  justify-content: space-between;
+  align-items: center;
+  height: 120rpx;
+  border-bottom: 1px solid #cccccc;
+}
+
+.product-text {
+  flex: 2 1 auto;
+}
+
+.product-price {
+  color: orangered;
+  font-size: 14px;
+  width: 150rpx;
+  flex: 0 1 auto;
+}
+
+.product-btn-buy {
+  flex: 0 1 auto;
+}

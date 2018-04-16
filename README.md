@@ -103,7 +103,7 @@ plugin/plugin.json
 小程序内的插件组件由 json wxml wxss js 4个文件组成，与自定义组件不同的地方是，插件由于内部保护机制，部分接口不可调用，具体可参考[插件调用 API 的限制][4]
 
 plugin/components/list/list.js
-```
+```js
 Component({
   /**
    * 插件内组件的私有数据，在视图内属于单项绑定关系
